@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akinapally Akhila | ML & Software Engineer Portfolio</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description"
+        content="Portfolio of Akinapally Akhila, an aspiring Machine Learning and Software Engineer specializing in Python, MySQL, and ML models. B.Tech graduate of 2025.">
+    <meta name="keywords"
+        content="Akinapally Akhila, Machine Learning, Software Engineer, Portfolio, Resume, B.Tech, Python, Java, SQL">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Dynamic Canvas Background for ambient lights -->
+    <div class="glow-bg-container">
+        <div class="glow-sphere glow-1"></div>
+        <div class="glow-sphere glow-2"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-symbol">&lt;</span>AKHILA<span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link active">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link btn-contact-nav">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge-new">
+                    <span class="pulse-dot"></span> Open for Opportunities
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Akinapally Akhila</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    Aspiring <span class="typing-text" id="typing-text">Machine Learning Engineer</span>
+                </h2>
+                <p class="hero-description">
+                    Dedicated software developer and machine learning enthusiast. I build predictive algorithms,
+                    intelligent translators, and robust security classifiers to solve real-world problems. Let's build
+                    the future together.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        Let's Talk <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/akhila-akinapally-79147b269" target="_blank" rel="noopener"
+                        aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:akhilaakinapally@gmail.com" aria-label="Email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="tel:+916309746121" aria-label="Phone">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="image-box">
+                    <div class="glass-frame"></div>
+                    <img src="akhila.photo.jpg" alt="Akinapally Akhila Profile Avatar" class="profile-img"
+                        onerror="this.src='https://api.dicebear.com/7.x/bottts-neutral/svg?seed=akhila&backgroundColor=0f172a'">
+                    <div class="tech-tag tag-python"><i class="fa-brands fa-python"></i> Python</div>
+                    <div class="tech-tag tag-ml"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                    <div class="tech-tag tag-database"><i class="fa-solid fa-database"></i> MySQL</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" aria-label="Scroll Down">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About & Personal Info Section -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="subtitle">Get To Know Me</span>
+                <h2 class="title">About Myself</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <!-- Objective Card -->
+                <div class="about-card career-objective glass-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-bullseye"></i>
+                    </div>
+                    <h3>Career Objective</h3>
+                    <p>
+                        To build a career in a growing organization, where I can get opportunities to prove my abilities
+                        by accepting challenges and fulfilling organizational goals, climbing the career ladder through
+                        continuous learning and commitment.
+                    </p>
+
+
+                    <!-- Academic Timeline Summary (Side Visual) -->
+                    <div class="about-card quick-highlights glass-card">
+                        <div class="card-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3>Core Pillars</h3>
+                        <div class="pillars-container">
+                            <div class="pillar-row">
+                                <div class="pillar-num">01</div>
+                                <div class="pillar-details">
+                                    <h4>Machine Learning Dev</h4>
+                                    <p>Specialized in training classification models, SVMs, and neural systems.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-row">
+                                <div class="pillar-num">02</div>
+                                <div class="pillar-details">
+                                    <h4>Academic Excellence</h4>
+                                    <p>Consistently high GPA holder throughout graduation and high school.</p>
+                                </div>
+                            </div>
+                            <div class="pillar-row">
+                                <div class="pillar-num">03</div>
+                                <div class="pillar-details">
+                                    <h4>Award Winning Profile</h4>
+                                    <p>Recognized for startup efforts and global student excellence.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section" id="education">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="subtitle">Academic Milestones</span>
+                <h2 class="title">Education Background</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="timeline">
+                <!-- B.Tech -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-panel glass-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-year"><i class="fa-solid fa-calendar"></i> Graduating 2025</span>
+                            <span class="timeline-gpa"><i class="fa-solid fa-star"></i> CGPA: 7.63/10</span>
+                        </div>
+                        <h3 class="timeline-title">B. Tech (Computer Science / IT)</h3>
+                        <p class="timeline-institute">Malla Reddy Engineering College of Engineering and Technology,
+                            Hyderabad</p>
+                        <p class="timeline-desc">Focussing on advanced programming methodologies, algorithms, data
+                            structures, machine learning applications, and database administration systems.</p>
+                    </div>
+                </div>
+
+                <!-- Diploma -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+                    <div class="timeline-panel glass-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-year"><i class="fa-solid fa-calendar"></i> 2019 - 2022</span>
+                            <span class="timeline-gpa"><i class="fa-solid fa-star"></i> CGPA: 7.3/10</span>
+                        </div>
+                        <h3 class="timeline-title">Diploma in Engineering</h3>
+                        <p class="timeline-institute">Govt Polytechnic Warangal College</p>
+                        <p class="timeline-desc">Acquired foundational computer science engineering and software
+                            concepts, operating systems, database basics, and core programming paradigms.</p>
+                    </div>
+                </div>
+
+                <!-- X class -->
+                <div class="timeline-item">
+                    <div class="timeline-badge">
+                        <i class="fa-solid fa-child"></i>
+                    </div>
+                    <div class="timeline-panel glass-card">
+                        <div class="timeline-meta">
+                            <span class="timeline-year"><i class="fa-solid fa-calendar"></i> 2018 - 2019</span>
+                            <span class="timeline-gpa"><i class="fa-solid fa-star"></i> CGPA: 8.3/10</span>
+                        </div>
+                        <h3 class="timeline-title">Secondary School Certificate (X Class)</h3>
+                        <p class="timeline-institute">Dr. P.V. Ranga Rao T.S.R.S Vangara</p>
+                        <p class="timeline-desc">Graduated with top credits, focusing on core academic mathematics,
+                            sciences, and basic informatics concepts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="subtitle">My Abilities</span>
+                <h2 class="title">Skills Inventory</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skills-card glass-card">
+                    <h3><i class="fa-solid fa-laptop-code"></i> Technical Stack</h3>
+                    <div class="skills-list">
+                        <!-- Programming -->
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-items">
+                                <div class="skill-tag"><i class="fa-brands fa-python py-color"></i> Python (Basics)
+                                </div>
+                                <div class="skill-tag"><i class="fa-brands fa-java java-color"></i> Java</div>
+                                <div class="skill-tag"><i class="fa-solid fa-c c-color"></i> C Language</div>
+                            </div>
+                        </div>
+
+                        <!-- Database -->
+                        <div class="skill-category">
+                            <h4>Database Management</h4>
+                            <div class="skill-items">
+                                <div class="skill-tag"><i class="fa-solid fa-database sql-color"></i> MySQL</div>
+                            </div>
+                        </div>
+
+                        <!-- OS & Tools -->
+                        <div class="skill-category">
+                            <h4>Tools & Systems</h4>
+                            <div class="skill-items">
+                                <div class="skill-tag"><i class="fa-brands fa-windows win-color"></i> Windows OS</div>
+                                <div class="skill-tag"><i class="fa-solid fa-file-word word-color"></i> MS Word</div>
+                                <div class="skill-tag"><i class="fa-solid fa-file-excel excel-color"></i> MS Excel</div>
+                                <div class="skill-tag"><i class="fa-solid fa-file-powerpoint ppt-color"></i> PowerPoint
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills & Personal Traits -->
+                <div class="skills-card glass-card">
+                    <h3><i class="fa-solid fa-user-gear"></i> Professional Attributes</h3>
+                    <div class="soft-skills-container">
+                        <div class="soft-skill-item">
+                            <span class="soft-skill-icon"><i class="fa-solid fa-users"></i></span>
+                            <div class="soft-skill-info">
+                                <h4>Leadership</h4>
+                                <p>Initiating group actions, organizing efforts, and guiding projects to completion.</p>
+                            </div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <span class="soft-skill-icon"><i class="fa-solid fa-bolt"></i></span>
+                            <div class="soft-skill-info">
+                                <h4>Quick Learning</h4>
+                                <p>Adapting swiftly to new frameworks, libraries, research papers, and methods.</p>
+                            </div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <span class="soft-skill-icon"><i class="fa-solid fa-puzzle-piece"></i></span>
+                            <div class="soft-skill-info">
+                                <h4>Problem Solving</h4>
+                                <p>Analyzing complex algorithmic bugs or design challenges and resolving them
+                                    systematically.</p>
+                            </div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <span class="soft-skill-icon"><i class="fa-solid fa-people-group"></i></span>
+                            <div class="soft-skill-info">
+                                <h4>Teamwork</h4>
+                                <p>Collaborating effectively with class colleagues and developers to design apps.</p>
+                            </div>
+                        </div>
+                        <div class="soft-skill-item">
+                            <span class="soft-skill-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+                            <div class="soft-skill-info">
+                                <h4>Self-Motivated</h4>
+                                <p>Driven to search out certifications, awards, and practical project builds on my own.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="subtitle">My Practical Experience</span>
+                <h2 class="title">Featured Projects</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-category="ml">
+                    <div class="project-header">
+                        <div class="project-badge"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-shield-virus"></i></div>
+                    </div>
+                    <h3 class="project-title">DDoS & DoS Attack Detection</h3>
+                    <p class="project-description">
+                        Developed a machine learning-based classification model to detect and classify denial of service
+                        attacks using raw network traffic datasets. Preprocessed large inputs and trained multiple
+                        algorithms.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>SVM</span>
+                        <span>Random Forest</span>
+                        <span>Decision Tree</span>
+                        <span>Scikit-Learn</span>
+                    </div>
+                    <div class="project-action-link">
+                        <button class="btn-project-detail" data-project="ddos">
+                            Explore Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-category="ml">
+                    <div class="project-header">
+                        <div class="project-badge"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-language"></i></div>
+                    </div>
+                    <h3 class="project-title">Hybrid Language Translator</h3>
+                    <p class="project-description">
+                        Designed a language translation system leveraging a fusion of traditional rule-based language
+                        algorithms and modern statistical approaches to deliver precise translations from source to
+                        target languages.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>NLP</span>
+                        <span>Statistical Translation</span>
+                        <span>Rule-Based Systems</span>
+                    </div>
+                    <div class="project-action-link">
+                        <button class="btn-project-detail" data-project="translator">
+                            Explore Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-category="ml">
+                    <div class="project-header">
+                        <div class="project-badge"><i class="fa-solid fa-brain"></i> Machine Learning</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-envelope-open-text"></i></div>
+                    </div>
+                    <h3 class="project-title">Spam Mail Detection Classifier</h3>
+                    <p class="project-description">
+                        Constructed a text preprocessing pipeline and classification framework to filter spam emails
+                        from valid user communications. Features text tokenization and TF-IDF feature extraction.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Text Mining</span>
+                        <span>TF-IDF</span>
+                        <span>Naive Bayes</span>
+                        <span>Classification</span>
+                    </div>
+                    <div class="project-action-link">
+                        <button class="btn-project-detail" data-project="spam">
+                            Explore Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card" data-category="app">
+                    <div class="project-header">
+                        <div class="project-badge"><i class="fa-solid fa-mobile-screen-button"></i> Mobile App</div>
+                        <div class="project-icon-box"><i class="fa-solid fa-book-open"></i></div>
+                    </div>
+                    <h3 class="project-title">Tuition Notes Application</h3>
+                    <p class="project-description">
+                        Designed a mobile application focused on connecting educators, students, and parents. Allows
+                        teachers to post study guides, daily school notes, and share academic metrics or student reports
+                        securely.
+                    </p>
+                    <div class="project-tags">
+                        <span>Android</span>
+                        <span>Java/Kotlin</span>
+                        <span>Firebase</span>
+                        <span>UI Design</span>
+                    </div>
+                    <div class="project-action-link">
+                        <button class="btn-project-detail" data-project="notes">
+                            Explore Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certificates-section" id="certificates">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="subtitle">Official Validation</span>
+                <h2 class="title">Awards & Certifications</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- Certificate 1 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon-ribbon">
+                        <i class="fa-solid fa-trophy trophy-gold"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">AIC-SKU</span>
+                        <h3 class="cert-title">Best Start-up Award</h3>
+                        <p class="cert-desc">Awarded for outstanding innovation in the women sector category.</p>
+                        <button class="btn-view-cert" data-cert-id="aic-sku"
+                            data-cert-name="Best Start-up Award in Women Sector" data-cert-org="AIC-SKU"
+                            data-cert-date="Special Recognition">View Certificate Mock <i
+                                class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon-ribbon">
+                        <i class="fa-solid fa-award award-platinum"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">Thailand Summit</span>
+                        <h3 class="cert-title">Titanium Award</h3>
+                        <p class="cert-desc">Global certificate of achievement presented at Thailand student
+                            conventions.</p>
+                        <button class="btn-view-cert" data-cert-id="thailand"
+                            data-cert-name="Titanium Student Excellence Award"
+                            data-cert-org="Thailand Academic Assembly" data-cert-date="Global Level">View Certificate
+                            Mock <i class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon-ribbon">
+                        <i class="fa-brands fa-google google-cloud-color"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">Google Cloud</span>
+                        <h3 class="cert-title">Managing Google Workspace</h3>
+                        <p class="cert-desc">Validation for cloud platform operations, security protocols, and console
+                            utilities.</p>
+                        <button class="btn-view-cert" data-cert-id="google-cloud"
+                            data-cert-name="Managing Google Workspace" data-cert-org="Google Cloud Academy"
+                            data-cert-date="Certified Professional">View Certificate Mock <i
+                                class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon-ribbon">
+                        <i class="fa-solid fa-university coursera-blue"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">Duke University | Coursera</span>
+                        <h3 class="cert-title">Programming Fundamentals</h3>
+                        <p class="cert-desc">Comprehensive certification covering foundational algorithms, structural
+                            paradigms, and JavaScript/logic basics.</p>
+                        <button class="btn-view-cert" data-cert-id="duke" data-cert-name="Programming Fundamentals"
+                            data-cert-org="Duke University (via Coursera)" data-cert-date="Foundational Path">View
+                            Certificate Mock <i class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon-ribbon">
+                        <i class="fa-solid fa-network-wired cisco-blue"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">Cisco Networking Academy</span>
+                        <h3 class="cert-title">Introduction to Networks</h3>
+                        <p class="cert-desc">Obtained comprehensive training in network-by-network layout systems,
+                            routing protocols, and basic hardware architectures.</p>
+                        <button class="btn-view-cert" data-cert-id="cisco"
+                            data-cert-name="Introduction to Network-by-Network" data-cert-org="Cisco Systems Academy"
+                            data-cert-date="Network Fundamentals">View Certificate Mock <i
+                                class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+
+                <!-- Certificate 6 -->
+                <div class="cert-card glass-card">
+                    <div class="cert-icon-ribbon">
+                        <i class="fa-solid fa-gears setwin-green"></i>
+                    </div>
+                    <div class="cert-body">
+                        <span class="cert-issuer">SET-WIN Govt.</span>
+                        <h3 class="cert-title">AI & ML Specialization</h3>
+                        <p class="cert-desc">Professional certificate of completion for advanced workshops in Artificial
+                            Intelligence & Machine Learning techniques.</p>
+                        <button class="btn-view-cert" data-cert-id="setwin"
+                            data-cert-name="Certificate of Completion AI & ML"
+                            data-cert-org="SET WIN Government Training" data-cert-date="Specialist Tier">View
+                            Certificate Mock <i class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="subtitle">Get In Touch</span>
+                <h2 class="title">Connect With Me</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Info cards -->
+                <div class="contact-info">
+                    <div class="info-card-box glass-card">
+                        <div class="info-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                        <div class="info-details">
+                            <h4>Send An Email</h4>
+                            <a href="mailto:akhilaakinapally@gmail.com" class="info-link">akhilaakinapally@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-card-box glass-card">
+                        <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div class="info-details">
+                            <h4>LinkedIn Profile</h4>
+                            <a href="https://linkedin.com/in/akhila-akinapally-79147b269" target="_blank" rel="noopener"
+                                class="info-link">linkedin.com/in/akhila-akinapally</a>
+                        </div>
+                    </div>
+                    <div class="info-card-box glass-card">
+                        <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="info-details">
+                            <h4>Github Profile</h4>
+                            <a href=" https://github.com/229akhila" target="_blank" rel="noopener"
+                                class="info-link">github.com/229akhila</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Certificate Mock Viewer Modal -->
+                <div class="custom-modal" id="cert-modal">
+                    <div class="modal-overlay"></div>
+                    <div class="modal-content glass-card certificate-modal-layout">
+                        <button class="modal-close" id="cert-modal-close" aria-label="Close Modal">&times;</button>
+                        <div class="cert-mock-envelope">
+                            <div class="cert-border">
+                                <div class="cert-inner-content">
+                                    <div class="cert-badge-gold">
+                                        <i class="fa-solid fa-award"></i>
+                                    </div>
+                                    <div class="cert-header-title">Certificate of Achievement</div>
+                                    <div class="cert-presentation">THIS IS MOCK CERTIFICATE PRESENTED TO</div>
+                                    <div class="cert-holder-name">Akinapally Akhila</div>
+                                    <div class="cert-middle-text">for successfully securing distinction credentials
+                                        in
+                                    </div>
+                                    <div class="cert-course-title" id="modal-cert-title">Managing Google Workspace
+                                    </div>
+                                    <div class="cert-organization-footer">
+                                        <span class="cert-org-name" id="modal-cert-org">Google Cloud Academy</span>
+                                        <span class="cert-org-stamp"><i class="fa-solid fa-stamp"></i>
+                                            VERIFIED</span>
+                                        <span class="cert-org-date" id="modal-cert-date">Certified
+                                            Professional</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Custom JS -->
+                <script src="script.js"></script>
+</body>
+
+</html>
