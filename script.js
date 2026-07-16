@@ -5,7 +5,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // --- Typing Effect for Hero Subtitle ---
-    const words = ["Machine Learning Developer.", "Software Engineer.", "B.Tech Graduate.", "CEO of Sonic A Square B solutions Pvt.Ltd."];
+    const words = ["Machine Learning Developer.", "Machine Learning Trainer.", "Software Engineer.", "B.Tech Graduate.", "CEO of Sonic A Square B solutions Pvt.Ltd."];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
@@ -246,24 +246,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    // --- Certificate Mock Viewer Modal ---
+    // --- Certificate Image Viewer Modal ---
     const certModal = document.getElementById('cert-modal');
     const certModalClose = document.getElementById('cert-modal-close');
     const certViewBtns = document.querySelectorAll('.btn-view-cert');
-    const modalCertTitle = document.getElementById('modal-cert-title');
-    const modalCertOrg = document.getElementById('modal-cert-org');
-    const modalCertDate = document.getElementById('modal-cert-date');
+    const modalCertImage = document.getElementById('modal-cert-image');
 
     if (certModal && certModalClose) {
         certViewBtns.forEach(btn => {
             btn.addEventListener('click', (e) => {
-                const title = e.currentTarget.getAttribute('data-cert-name');
-                const org = e.currentTarget.getAttribute('data-cert-org');
-                const date = e.currentTarget.getAttribute('data-cert-date');
+                const imgSrc = e.currentTarget.getAttribute('data-cert-img');
 
-                if (modalCertTitle) modalCertTitle.textContent = title;
-                if (modalCertOrg) modalCertOrg.textContent = org;
-                if (modalCertDate) modalCertDate.textContent = date;
+                if (modalCertImage && imgSrc) {
+                    modalCertImage.src = imgSrc;
+                }
 
                 certModal.classList.add('active');
                 document.body.style.overflow = 'hidden';
