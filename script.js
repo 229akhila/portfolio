@@ -247,6 +247,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // --- Certificate Image Viewer Modal ---
+    // Certificate Filter
+    const certBtns = document.querySelectorAll(".cert-filter-btn");
+    const certCards = document.querySelectorAll(".certificate-card");
+
+    certBtns.forEach(btn => {
+
+        btn.addEventListener("click", () => {
+
+            certBtns.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+
+            const filter = btn.dataset.filter;
+
+            certCards.forEach(card => {
+
+                if (filter === "all" || card.dataset.category === filter) {
+
+                    card.style.display = "flex";
+
+                } else {
+
+                    card.style.display = "none";
+
+                }
+
+            });
+
+        });
+
+    });
     const certModal = document.getElementById('cert-modal');
     const certModalClose = document.getElementById('cert-modal-close');
     const certViewBtns = document.querySelectorAll('.btn-view-cert');

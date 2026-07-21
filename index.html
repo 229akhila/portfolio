@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,9 +58,9 @@
                 </h2>
                 <p class="hero-description">
                     Dedicated software developer and machine learning enthusiast. I build predictive algorithms,
-                    intelligent translators, and robust security classifiers to solve real-world problems. Let's build
-                    the future together.
+                    intelligent translators, and robust security classifiers to solve real-world problems.
                 </p>
+
                 <div class="hero-actions">
                     <a href="#projects" class="btn btn-primary">
                         View My Work <i class="fa-solid fa-arrow-right"></i>
@@ -228,7 +229,7 @@
                         <div class="skill-category">
                             <h4>Programming Languages</h4>
                             <div class="skill-items">
-                                <div class="skill-tag"><i class="fa-brands fa-python py-color"></i> Python (Basics)
+                                <div class="skill-tag"><i class="fa-brands fa-python py-color"></i> Python
                                 </div>
                                 <div class="skill-tag"><i class="fa-brands fa-java java-color"></i> Java</div>
                                 <div class="skill-tag"><i class="fa-solid fa-c c-color"></i> C Language</div>
@@ -423,13 +424,28 @@
                 <h2 class="title">Awards & Certifications</h2>
                 <div class="header-line"></div>
             </div>
+            <!-- Certifications Filters -->
+            <div class="certificate-filters">
+                <button class="cert-filter-btn active" data-filter="all">
+                    All Certificates
+                </button>
+
+                <button class="cert-filter-btn" data-filter="recognition">
+                    Recognition
+                </button>
+
+                <button class="cert-filter-btn" data-filter="training">
+                    Training
+                </button>
+            </div>
             <div class="certificates-grid">
                 <!-- Certificate 1 -->
-                <div class="cert-card glass-card">
-                    <div class="cert-icon-ribbon">
-                        <i class="fa-solid fa-trophy trophy-gold"></i>
-                    </div>
+                <div class="certificate-card glass-card" data-category="recognition">
                     <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-trophy"></i>Recognition</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-lightbulb"></i></div>
+                        </div>
                         <span class="cert-issuer">AIC-SKU</span>
                         <h3 class="cert-title">Best Start-up Award</h3>
                         <p class="cert-desc">We are honored with the Best Start-Up Award in the
@@ -441,11 +457,13 @@
                     </div>
                 </div>
                 <!-- Certificate 2 -->
-                <div class="cert-card glass-card">
-                    <div class="cert-icon-ribbon">
-                        <i class="fa-solid fa-award award-platinum"></i>
-                    </div>
+                <div class="certificate-card glass-card" data-category="recognition">
+
                     <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-trophy"></i>Recognition</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-lightbulb"></i></div>
+                        </div>
                         <span class="cert-issuer">Thailand Summit</span>
                         <h3 class="cert-title">Titanium Award</h3>
                         <p class="cert-desc">Global certificate of achievement presented at Thailand organized by KRYA
@@ -457,11 +475,13 @@
                     </div>
                 </div>
                 <!-- Certificate 3 -->
-                <div class="cert-card glass-card">
-                    <div class="cert-icon-ribbon">
-                        <i class="fa-brands fa-google google-cloud-color"></i>
-                    </div>
+                <div class="certificate-card glass-card" data-category="training">
+
                     <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-certificate"></i>Training</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-award award-platinum"></i></div>
+                        </div>
                         <span class="cert-issuer">Google Cloud</span>
                         <h3 class="cert-title">Managing Google Workspace</h3>
                         <p class="cert-desc">Validation for cloud platform operations, security protocols, and console
@@ -473,11 +493,13 @@
                     </div>
                 </div>
                 <!-- Certificate 4 -->
-                <div class="cert-card glass-card">
-                    <div class="cert-icon-ribbon">
-                        <i class="fa-solid fa-university coursera-blue"></i>
-                    </div>
+                <div class="certificate-card glass-card" data-category="training">
+
                     <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-certificate"></i>Training</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-award award-platinum"></i></div>
+                        </div>
                         <span class="cert-issuer">Duke University | Coursera</span>
                         <h3 class="cert-title">Programming Fundamentals</h3>
                         <p class="cert-desc">Comprehensive certification covering foundational algorithms, structural
@@ -489,11 +511,13 @@
                     </div>
                 </div>
                 <!-- Certificate 5 -->
-                <div class="cert-card glass-card">
-                    <div class="cert-icon-ribbon">
-                        <i class="fa-solid fa-network-wired cisco-blue"></i>
-                    </div>
+                <div class="certificate-card glass-card" data-category="training">
+
                     <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-certificate"></i>Training</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-award award-platinum"></i></div>
+                        </div>
                         <span class="cert-issuer">Cisco Networking Academy</span>
                         <h3 class="cert-title">Introduction to Networks</h3>
                         <p class="cert-desc">Obtained comprehensive training in network-by-network layout systems,
@@ -505,11 +529,13 @@
                     </div>
                 </div>
                 <!-- Certificate 6 -->
-                <div class="cert-card glass-card">
-                    <div class="cert-icon-ribbon">
-                        <i class="fa-solid fa-gears setwin-green"></i>
-                    </div>
+                <div class="certificate-card glass-card" data-category="training">
+
                     <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-certificate"></i>Training</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-award award-platinum"></i></div>
+                        </div>
                         <span class="cert-issuer">SET-WIN Govt.</span>
                         <h3 class="cert-title">AI & ML Specialization</h3>
                         <p class="cert-desc">Professional certificate of completion for advanced workshops in Artificial
@@ -517,6 +543,61 @@
                         <button class="btn-view-cert" data-cert-id="setwin" data-cert-img="set win.jpeg"
                             data-cert-name="Certificate of Completion AI & ML"
                             data-cert-org="SET WIN Government Training" data-cert-date="Specialist Tier">View
+                            Certificate <i class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <!-- Certificate 7 -->
+                <div class="certificate-card glass-card" data-category="recognition">
+
+                    <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-trophy"></i>Recognition</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-lightbulb"></i></div>
+                        </div>
+                        <span class="cert-issuer">HP Foundation (HP LIFE)</span>
+                        <h3 class="cert-title">IT for Business Success</h3>
+                        <p class="cert-desc">Gaining knowledge of business technology, digital transformation, IT
+                            integration, and selecting appropriate technology solutions to improve organizational
+                            efficiency and support business growth.</p>
+                        <button class="btn-view-cert" data-cert-id="it" data-cert-img="IT for Business Success.jpg"
+                            data-cert-name="IT for Business Success" data-cert-org="HP Foundation (HP LIFE)"
+                            data-cert-date="Professional Program">View
+                            Certificate <i class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <!-- Certificate 8 -->
+                <div class="certificate-card glass-card" data-category="training">
+
+                    <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-certificate"></i>Training</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-award award-platinum"></i></div>
+                        </div>
+                        <span class="cert-issuer">HP Foundation (HP LIFE)</span>
+                        <h3 class="cert-title">AI for Beginners</h3>
+                        <p class="cert-desc">This program introduced me to the fundamentals of Artificial Intelligence,
+                            covering key concepts like machine learning, neural networks, and practical AI applications
+                            using Python.</p>
+                        <button class="btn-view-cert" data-cert-id="setwin" data-cert-img="AI for Beginners.jpg"
+                            data-cert-name="AI for Beginners" data-cert-org="HP Foundation (HP LIFE)"
+                            data-cert-date="Specialist Tier">View
+                            Certificate <i class="fa-solid fa-up-right-from-square"></i></button>
+                    </div>
+                </div>
+                <!-- Certificate 9 -->
+                <div class="certificate-card glass-card" data-category="recognition">
+
+                    <div class="cert-body">
+                        <div class="cert-header">
+                            <div class="cert-badge"><i class="fa-solid fa-trophy"></i>Recognition</div>
+                            <div class="cert-icon-ribbon"><i class="fa-solid fa-lightbulb"></i></div>
+                        </div>
+                        <span class="cert-issuer">AIC-SKU</span>
+                        <h3 class="cert-title">IGNITE 4.0</h3>
+                        <p class="cert-desc">Successful completion of IGNITE 4.0 Training Program on Entrepreneurship
+                            organised by AIC-SKU Confederation in Partnership with Inspring Innovations,Bangalore</p>
+                        <button class="btn-view-cert" data-cert-id="it" data-cert-img="SKU.jpeg" data-cert-name="SKU"
+                            data-cert-org="SKU" data-cert-date="Professional Program">View
                             Certificate <i class="fa-solid fa-up-right-from-square"></i></button>
                     </div>
                 </div>
@@ -625,19 +706,13 @@
                     }
                     if ((e.ctrlKey || e.metaKey) && e.key === 's') {
                         e.preventDefault();
-
                     }
-
                 })
-
-
             </script>
-
-
-
-
-
-
+            <script>
+                // JavaScript to update the year dynamically
+                document.getElementById('year').textContent = new Date().getFullYear();
+            </script>
 </body>
 
 </html>
